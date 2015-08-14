@@ -68,7 +68,7 @@ describe('Methods', function() {
   });
 
   describe('#b8 button', function() { 
-    it('should prepend the word "Before" when Prepend button is clicked', function() {
+    it('should append the word "After" when Append button is clicked', function() {
       $("#b8").click();
       selector = $('#p3');
       expect(selector.text()).toBe("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at felis fringilla augue pellentesque cursus. Integer a placerat sapien. Suspendisse faucibus sodales commodo. Etiam ac accumsan urna. Vestibulum condimentum placerat elit, sit amet commodo est feugiat non. Vivamus eget magna semper nisi iaculis interdum. Phasellus interdum, mauris interdum interdum ornare, eros velit varius augue, at fermentum lorem justo eget metus. Nulla id ligula urna. Nulla nisi velit, sagittis nec mattis non, feugiat sit amet libero. Donec et lectus sed tellus consectetur venenatis. Quisque volutpat sagittis est, eget pellentesque neque elementum non. After");
